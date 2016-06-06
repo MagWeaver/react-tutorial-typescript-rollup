@@ -1,0 +1,15 @@
+{
+  "name": "react-tutorial-with-redux",
+  "dependencies": {},
+  "globalDependencies": {
+    "jquery": "registry:dt/jquery#1.10.0+20160417213236",
+    "marked": "registry:dt/marked#0.0.0+20160325085301",
+    "react": "registry:dt/react#0.14.0+20160602151522",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160501125835",
+    "redux": "registry:dt/redux#3.3.1+20160326112656",
+    "redux-logger": "registry:dt/redux-logger#2.6.0+20160316155526",
+    "redux-thunk": "registry:dt/redux-thunk#2.0.1+20160317120654",
+    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20160524142046"
+  }
+}

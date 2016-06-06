@@ -1,0 +1,47 @@
+{
+  "name": "react-tutorial-typescript-rollup",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "postinstall": "typings install",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "postinstall": "npm run typings install",
+    "build":"rollup -c",
+    "typings" : "typings"
+  },
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5"
+  },
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^1.1.1",
+    "babel-preset-react": "^6.5.0",
+    "jquery": "^2.2.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-redux": "^3.1.2",
+    "redux": "^3.5.2",
+    "redux-logger": "^2.0.5",
+    "redux-thunk": "^1.0.3",
+    "remarkable": "^1.6.2",
+    "rollup": "^0.26.3",
+    "rollup-plugin-babel": "^2.4.0",
+    "rollup-plugin-jsx": "^1.0.3",
+    "rollup-plugin-replace": "^1.1.0",
+    "rollup-plugin-typescript": "^0.7.5",
+    "rollup-plugin-uglify": "^0.3.1",
+    "typings": "^1.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koba-ninkigumi/react-tutorial-typescript-rollup.git"
+  },
+  "author": "Teruyuki Kobayashi (koba1014@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koba-ninkigumi/react-tutorial-typescript-rollup/issues"
+  },
+  "homepage": "https://github.com/koba-ninkigumi/react-tutorial-typescript-rollup#readme"
+}

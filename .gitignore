@@ -8,3 +8,4 @@ public/src/containers
 public/src/reducers
 public/src/store
 **.org
+.idea

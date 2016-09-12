@@ -2,7 +2,6 @@ import typescript from 'rollup-plugin-typescript';
 import babel   from 'rollup-plugin-babel'
 import replace from 'rollup-plugin-replace'
 import uglify from 'rollup-plugin-uglify';
-import eslint from 'rollup-plugin-eslint';
 
 export default {
 	entry: './public/src/index.tsx',
@@ -17,7 +16,6 @@ export default {
 			'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
 		}),
 		babel(),
-		//eslint(), //Commenting out for now. Need to figure out how to get it to lay off the "__" vars, possibly switch to tslint
 		(process.env.NODE_ENV === 'production' && uglify())
 	],
 	globals: {

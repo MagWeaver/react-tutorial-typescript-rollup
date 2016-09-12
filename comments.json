@@ -8,5 +8,15 @@
         "id": 1420070400000,
         "author": "Paul O’Shannessy",
         "text": "React is *great*!"
+    },
+    {
+        "id": 1473443142993,
+        "author": "Bob",
+        "text": "Is awesome"
+    },
+    {
+        "id": 1473443147553,
+        "author": "Fred",
+        "text": "is Cool"
     }
 ]

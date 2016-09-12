@@ -3,9 +3,8 @@
 import * as React from 'react';
 import * as Redux from 'redux';
 import * as ReactDOM from 'react-dom';
-import CommentBox from './components/comment-box';
 
 ReactDOM.render(
-	<CommentBox url="/api/comments" pollInterval={2000}/>,
+	<div>Hello</div>,
 	document.getElementById('content')
 );

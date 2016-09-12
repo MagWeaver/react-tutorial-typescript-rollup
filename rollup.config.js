@@ -4,10 +4,10 @@ import replace from 'rollup-plugin-replace'
 import uglify from 'rollup-plugin-uglify';
 
 export default {
-	entry: './public/src/index.tsx',
-	dest: './public/dist/app.min.js',
+	entry: './src/index.tsx',
+	dest: './dist/app.min.js',
 	format: 'iife',
-	sourceMap: './public/dist/app.min.js.map',
+	sourceMap: './dist/app.min.js.map',
 	moduleName: 'MyBundle',
 	plugins: [
 		typescript(),
